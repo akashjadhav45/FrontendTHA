@@ -1,0 +1,16 @@
+.grid{
+    margin: 150px 400px;
+}
+.row{
+    display: flex;
+}
+.col{
+    border: 1px solid white;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(224, 58, 86);
+    box-shadow: black;
+}
+.white{
+    background-color: white;
+} 
