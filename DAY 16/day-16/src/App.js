@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <ChessBoard/>
-    <MemeCard />
+      <MemeCard />
     </div>
   );
 }

@@ -1,3 +1,10 @@
-function randomImg() {
-	document.getElementById('img-container').innerHTML = '<img src="https://source.unsplash.com/random/1300x700">';
-}
+function fetchtext() {
+    fetch('https://api.quotable.io/random')
+      .then(response => response.json())
+      .then(data => {
+        ee.textContent = data.content;
+      });
+  }
+  
+  fetchtext();
+  var ee = document.querySelector('p');
