@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+h1 {
+  justify-content
+: center;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-family: "Yomogi", cursive;
+}
+body {
+  background-color: rgb(1, 144, 158);
+}
+button {
+  padding: 10px 20px;
+  font-size: 2rem;
+  background-color: rgb(255, 112, 98);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.6),
+    0px 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  transition: all ease 0.3s;
+  font-weight: 600;
+}
+button:hover {
+  transform: scale(1.2);
+}
